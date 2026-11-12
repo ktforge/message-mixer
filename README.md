@@ -9,7 +9,9 @@ There's no live site for this one. It runs in the terminal with Node.
 `encryptors.js` is the module. It exports three functions:
 
 `caesarCipher()` shifts every letter forward by a number you pick
+
 `symbolCipher()` swaps some letters for lookalike symbols, like `e` for `3` and `s` for `$`
+
 `reverseCipher()` flips each word but keeps the words in order
 
 `message-mixer.js` imports those functions and lets you pick one cipher from the command line.
